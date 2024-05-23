@@ -1,0 +1,27 @@
+{
+  "name": "appnox_project",
+  "version": "1.0.0",
+  "description": "User API with CRUD operations",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ayush Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^9.2.0"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
